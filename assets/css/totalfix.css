@@ -1,0 +1,85 @@
+.nav-navbar {
+  background-color: #fef7e2;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.imgnav {
+  width: 90px;
+}
+.nav-navbar button:nth-of-type(3) {
+  font-size: 40px;
+}
+
+.nav-navbar button {
+  background-color: #ffdf7f;
+  color: #7d2f0d;
+  border-radius: 50px;
+  font-size: 25px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border: none;
+  font-weight: 700;
+  padding: 1rem;
+  gap: 1rem;
+}
+/*==================================*/
+
+.primoh1 {
+  padding: 1rem;
+  font-size: 80px;
+  font-weight: 700;
+  color: #7d2f0d;
+}
+
+/*===================================*/
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div-container {
+  background-color: #fef7e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+  width: 25vh;
+  margin: 3rem;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.imgtab {
+  max-width: 100%;
+}
+
+.div-text h3 {
+  font-weight: 700;
+}
+
+.div-text {
+  color: #7d2f0d;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 25px;
+  align-items: center;
+}
+
+.div-container button {
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 40px;
+  border: none;
+  margin-inline: 4rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #ffdf7f;
+  color: #7d2f0d;
+}
