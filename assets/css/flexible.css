@@ -1,0 +1,33 @@
+.div-flexible {
+  background-color: #fbf7e3;
+  margin: 3rem;
+  border-radius: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+.img-flexible {
+  padding: 2rem;
+}
+
+.div-text {
+  padding: 2rem;
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #612406;
+}
+
+.div-text h1 {
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-size: 33px;
+}
+@media screen and (max-width: 767px) {
+  .div-flexible {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-text {
+    order: -1;
+  }
+}
